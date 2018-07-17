@@ -37,31 +37,6 @@ if (1==1) {
                 library("RbaiduLBS")
         }
         
-        if(!require("rvest")){
-                install.packages("rvest")
-                library("rvest")
-        }
-        
-        if(!require("sp")){
-                install.packages("sp")
-                library("sp")
-        }
-        
-        if(!require("ggplot2")){
-                install.packages("ggplot2")
-                library("ggplot2")
-        }
-        
-        if(!require("sf")){
-                install.packages("sf")
-                library("sf")
-        }
-        
-        if(!require("Quandl")){
-                install.packages("Quandl")
-                library("Quandl")
-        }
-        
         if(!require("reshape2")){
                 install.packages("reshape2")
                 library("reshape2")
