@@ -67,20 +67,20 @@ if (1==1) {
                 library("ggplot2")
         }
         
-        if(!require("sf")){
-                install.packages("sf")
-                library("sf")
-        }
-        
-        if(!require("rMaps")){
-                install.packages("rMaps")
-                library("rMaps")
-        }
-        
-        if(!require("Quandl")){
-                install.packages("Quandl")
-                library("Quandl")
-        }
+        # if(!require("sf")){
+        #         install.packages("sf")
+        #         library("sf")
+        # }
+        # 
+        # if(!require("rMaps")){
+        #         install.packages("rMaps")
+        #         library("rMaps")
+        # }
+        # 
+        # if(!require("Quandl")){
+        #         install.packages("Quandl")
+        #         library("Quandl")
+        # }
         
         if(!require("reshape2")){
                 install.packages("reshape2")
