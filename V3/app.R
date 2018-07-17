@@ -226,7 +226,7 @@ server <- function(input, output) {
                 ## Set Target Address
                 # target_name <- "上海市银城中路488号"
                 # target_name <- "上海市江宁路396号"
-                # target_name <- "上海市静安区愚园路68号"
+                target_name <- "上海市静安区愚园路68号"
                 # target_name <- as.character(input$caption)
                 
                 target_address <- getGeocoding(address = target_name, city = '上海', ak = 'ZxjZ6VnwlxvRarbnVtg38IcCwpiGLZzN')
